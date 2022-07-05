@@ -1,0 +1,42 @@
+.serving-container{
+    background-color:#F7F7F7;
+    margin-top: 7rem;
+    width: 100%;
+    height: 20rem;
+    color: #777777;
+}
+.definition-container{
+    margin-top: 7rem;
+    text-align: center;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 5rem;
+}
+
+.about-us-container{
+    width: 100%;
+    height: 62.9rem;
+    background-color: #569BE3;
+    margin-bottom: 5rem;
+}
+.facilities-container{
+    width: 100%;
+    height: 16rem;
+    margin-bottom: 8rem;
+}
+.footer-container{
+    width: 100%;
+    height: 29rem;
+}
+.footer-blue{
+    height: 24.5rem;
+    width: 100%;
+    background-color: #569BE3;
+}
+.footer-yellow{
+    width: 100%;
+    height: 4.5rem;
+    background-color: #FFF306;
+
+}

@@ -1,0 +1,29 @@
+.about-us{
+ width: 94%;
+ height: 100%;
+ margin-left: 3%;
+ margin-right: 3%;
+ display: flex;
+ justify-content: center;
+ align-items: center;   
+}
+
+.about-us h1{
+    font-family: 'Uni Sans Heavy Italic',sans-serif;
+    color: #FFF306;
+    font-size: 10rem;
+}
+.title .us{
+    font-family: 'Uni Sans Thin Italic',sans-serif;
+    margin-top: -3rem;
+    margin-left: 9rem;
+}
+.about-us p{
+    font-family: 'Metropolis Light',sans-serif;
+    margin-left: 7rem;
+    color:#FFFFFF ;
+    font-size: 1.7rem;
+    line-height: 1.1;
+    word-spacing: 1px;
+    
+}

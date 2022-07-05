@@ -1,0 +1,44 @@
+.facilities-box{
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    
+    box-shadow: 0 4rem 4rem rgba(0, 0, 0, .5);
+    height: 100%;
+    background-color: white;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 13%;
+    padding-right: 13%;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+    position: relative;
+    margin-bottom: 7rem;
+}
+.explore-facilities-button{
+    font-family: 'Metropolis Semi Bold',sans-serif;
+    position: absolute;
+    text-align: center;
+    bottom: -3.5rem;
+    background-color: #569BE3;
+    color: #FFFFFF;
+    height: 40%;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.4rem;
+    border-radius: 0.7rem;
+    -webkit-border-radius: 0.7rem;
+    -moz-border-radius: 0.7rem;
+    -ms-border-radius: 0.7rem;
+    -o-border-radius: 0.7rem;
+}
+.explore-facilities-button:hover{
+    cursor: pointer;
+}
+
