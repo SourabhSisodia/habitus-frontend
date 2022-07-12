@@ -1,35 +1,31 @@
-.serving{
-    width:70%;
-    height: 100%;
-    margin-left: 15%;
-    margin-right: 15%;
-    margin-top: auto;
-    margin-bottom: auto;
-    display: flex;
-    justify-content:space-between;
-    align-items: center; 
+.serving {
+  width: 70%;
+  height: 100%;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-top: auto;
+  margin-bottom: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
- .serving-heading{
-    font-family: 'Metropolis Black Italic',sans-serif;
-    text-transform: uppercase;
-    font-size: 6rem;
-    
-
+.serving-heading {
+  font-family: "Metropolis Black Italic", sans-serif;
+  text-transform: uppercase;
+  font-size: 6rem;
 }
-.serving-numbers{
-    font-family: 'Metropolis Black Italic',sans-serif;
-    font-size: 3.75rem;
-    
+.serving-numbers {
+  font-family: "Metropolis Black Italic", sans-serif;
+  font-size: 3.75rem;
 }
-.serving-names{
-    font-family: 'Metropolis Light',sans-serif;
-    font-size: 1.68rem;
+.serving-names {
+  font-family: "Metropolis Light", sans-serif;
+  font-size: 1.68rem;
 }
 
-.client-numbers, .company-numbers{
-    display: flex;
-    flex-direction: column;
-    
-
-} 
+.client-numbers,
+.company-numbers {
+  display: flex;
+  flex-direction: column;
+}

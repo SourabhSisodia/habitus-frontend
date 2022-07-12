@@ -1,9 +1,7 @@
-.BookingFormContainer{
-    box-shadow: 0 4rem 4rem rgba(0, 0, 0, .5);
+.BookingFormContainer {
+  box-shadow: 0 4rem 4rem rgba(0, 0, 0, 0.5);
 
-    height: 7.5rem;
-    background-color: white;
-    border-radius: 1rem;
-
-    
+  height: 7.5rem;
+  background-color: white;
+  border-radius: 1rem;
 }
