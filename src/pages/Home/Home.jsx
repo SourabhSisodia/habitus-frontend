@@ -3,13 +3,13 @@ import Header from "../../components/Header/Header";
 import Serving from "../../components/Serving/Serving";
 import Definition from "../../components/Definition/Definition";
 import AboutUs from "../../components/AboutUs/AboutUs";
-import Facilities from "../../components/Facilities/Facilities";
+import FacilitiesBox from "../../components/FacilitiesBox/FacilitiesBox";
 import Footer from "../../components/Footer/Footer";
 import Blogs from "../../components/Blogs/Blogs";
 import "./Home.css";
 function Home() {
   return (
-    <div className="Home">
+    <div className="home">
       <div className="header-container">
         <Header></Header>
       </div>
@@ -23,13 +23,12 @@ function Home() {
         <AboutUs></AboutUs>
       </div>
       <div className="facilities-container">
-        <Facilities></Facilities>
+        <FacilitiesBox></FacilitiesBox>
       </div>
       <div className="blogs-parent-container">
-        <div className="yellow-box">
-        </div>
+        <div className="yellow-box"></div>
         <div className="blogs-container">
-        <Blogs></Blogs>
+          <Blogs></Blogs>
         </div>
       </div>
       <div className="footer-container">

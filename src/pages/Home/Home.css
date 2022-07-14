@@ -23,21 +23,19 @@
   height: 16rem;
   margin-bottom: 8rem;
 }
-.blogs-parent-container{
-  height: 55rem;
+.blogs-parent-container {
+  height: 48rem;
   width: 100%;
-  margin-bottom: 10rem;
+  margin-bottom: 5rem;
   position: relative;
 }
-.yellow-box{
+.yellow-box {
   background-color: #fff306;
   height: 25.68rem;
   position: absolute;
- width: 100%;
-
+  width: 100%;
 }
-.blogs-container
-{
+.blogs-container {
   width: 100%;
   position: absolute;
   z-index: 2;

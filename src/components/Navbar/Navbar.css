@@ -1,13 +1,12 @@
 .navbar {
   display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-  width: 95%;
+  justify-content: space-around;
+  align-items:center;
 }
 
 .logo {
   width: 25%;
-  margin-right: 10rem;
+  margin-right: 12rem;
   height: 3.56rem;
 }
 .other-links {
@@ -19,7 +18,7 @@
   margin-right: 2.5rem;
 }
 .other-links a {
-  margin-left: 1.25rem;
+  margin-left: 1.2rem;
   text-transform: uppercase;
   font-size: 1.1rem;
   letter-spacing: 1px;
@@ -27,13 +26,28 @@
 }
 
 .navbar a {
-  color: white;
   text-decoration: none;
   text-align: center;
+  transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
 }
 .navbar a:hover {
   text-decoration: underline;
 }
 .search {
-  height: 1.62;
+  height: 1.62rem;
+  
+}
+a.active {
+  text-decoration: underline;
+
+}
+a.black {
+  color: black;
+}
+a.white {
+  color: white;
 }

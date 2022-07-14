@@ -1,12 +1,14 @@
 import React from "react";
-import "./Facilities.css";
+import { useNavigate } from "react-router-dom";
+import "./FacilitiesBox.css";
 import ac from "../../assets/ac.png";
 import cctv from "../../assets/cctv.png";
 import gender from "../../assets/gender.png";
 import electricity from "../../assets/electricity.png";
 import parking from "../../assets/parking.png";
 import wifi from "../../assets/wifi.png";
-function Facilities() {
+function FacilitiesBox() {
+  const navigate = useNavigate();
   return (
     <div className="facilities-box">
       <img src={ac} alt="air conditioner" srcset="" />
@@ -16,11 +18,14 @@ function Facilities() {
       <img src={electricity} alt="electricity 24x7" srcset="" />
       <img src={wifi} alt="high speed wifi" srcset="" />
 
-      <div className="explore-facilities-button">
+      <div
+        className="explore-facilities-button"
+        onClick={() => navigate("/facilities")}
+      >
         <p> EXPLORE FACILITIES</p>
       </div>
     </div>
   );
 }
 
-export default Facilities;
+export default FacilitiesBox;

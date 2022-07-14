@@ -37,7 +37,7 @@ function Header() {
         </SwiperSlide>
       </Swiper>
 
-      <div className="navbar">
+      <div className="navbar-container">
         <Navbar></Navbar>
       </div>
       <h1>
