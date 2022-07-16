@@ -1,7 +1,7 @@
 .navbar {
   display: flex;
   justify-content: space-around;
-  align-items:center;
+  align-items: center;
 }
 
 .logo {
@@ -39,11 +39,9 @@
 }
 .search {
   height: 1.62rem;
-  
 }
 a.active {
   text-decoration: underline;
-
 }
 a.black {
   color: black;

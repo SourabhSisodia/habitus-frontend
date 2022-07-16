@@ -4,8 +4,8 @@ import { useLocation } from "react-router-dom";
 import { NavLink, Link } from "react-router-dom";
 import "./Navbar.css";
 import logo from "../../assets/logo.png";
-import search from "../../assets/search.png"
-import searchGrey from "../../assets/search grey.png"
+import search from "../../assets/search.png";
+import searchGrey from "../../assets/search grey.png";
 function Navbar() {
   const location = useLocation();
   const styles = {
@@ -46,7 +46,6 @@ function Navbar() {
             srcset=""
             className="search"
           />
-          
         </NavLink>
       </div>
     </div>
