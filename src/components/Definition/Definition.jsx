@@ -1,5 +1,14 @@
 import "./Definition.css";
+import card from "../../assets/hero.png"
+import { Swiper, SwiperSlide } from "swiper/react";
 
+// Import Swiper styles
+import "swiper/css";
+import "swiper/css/effect-cube";
+import "swiper/css/pagination";
+
+// import required modules
+import { Autoplay , EffectCube , Pagination } from "swiper";
 function Definition() {
   return (
     <>
@@ -16,7 +25,38 @@ function Definition() {
           freelancers, startups, artists and individual content creators.
         </p>
       </div>
-      <div className="definition-slider"></div>
+      <div className="definition-slider">
+      <Swiper
+        autoplay={{
+          delay: 3000,
+          disableOnInteraction: false,
+        }}
+        effect={"cube"}
+        grabCursor={true}
+        cubeEffect={{
+          shadow: true,
+          slideShadows: true,
+          shadowOffset: 20,
+          shadowScale: 0.94,
+        }}
+        pagination={ {clickable: true,}}
+        modules={[Autoplay,EffectCube, Pagination]}
+        className="mySwiper"
+      >
+        <SwiperSlide>
+          <img src={card}/>
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src={card}/>
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src={card}/>
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src={card}/>
+        </SwiperSlide>
+      </Swiper>        
+      </div>
     </>
   );
 }
